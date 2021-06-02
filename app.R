@@ -12,7 +12,7 @@ ui <- fluidPage(
       helpText("Note : Choose the name of plots."),
       selectInput("num",
                   label = "Choose a plots to display",
-                  choices = list("plot 1", "plot 2", "plot 3", "plot 4", "plot 5", "plot 6", "plot 7"),
+                  choices = list("plot 1", "plot 2", "plot 3", "plot 4", "plot 5", "plot 6", "plot 7", "plot 8", "plot 9", "plot 10"),
                   selected = "plot1"),
       sliderInput("count",
                   label = "Choose the number of variables",
